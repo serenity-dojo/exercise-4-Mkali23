@@ -6,6 +6,8 @@ public class Dog {
     private String favoriteToy;
     private int age;
 
+    public static final String DOG_NOISE = "Woof";
+
     public Dog(String name, String favoriteToy, int age) {
         this.name = name;
         this.favoriteToy = favoriteToy;
