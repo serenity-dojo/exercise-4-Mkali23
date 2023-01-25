@@ -39,11 +39,11 @@ public class Dog {
         return "Woof";
     }
 
-    public boolean isFed() {
+    public  final boolean isFed() {
         return true;
     }
 
-    public final boolean feed() {
+    public boolean feed() {
         return isFed();
     }
 }
