@@ -41,7 +41,7 @@ public class Dog {
         return true;
     }
 
-//    public boolean feed() {
-//        return true;
-//    }
+    public boolean feed() {
+        return isFed();
+    }
 }
